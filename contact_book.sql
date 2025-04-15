@@ -41,9 +41,9 @@ CREATE TABLE contact_tags (
 
 -- Sample data
 INSERT INTO contacts (first_name, last_name, email, address) VALUES
-('John', 'Doe', 'john.doe@example.com', '123 Main St, Anytown'),
-('Jane', 'Smith', 'jane.smith@example.com', '456 Oak Ave, Somewhere'),
-('Bob', 'Johnson', 'bob.johnson@example.com', '789 Pine Rd, Nowhere');
+('Jay', 'Doe', 'john.doe@example.com', '123 Main St, Anytown'),
+('June', 'Smith', 'jane.smith@example.com', '456 Oak Ave, Somewhere'),
+('Bob', 'John', 'bob.john@example.com', '789 Pine Rd, Nowhere');
 
 INSERT INTO tags (name, description) VALUES
 ('Family', 'Close family members'),
@@ -54,7 +54,7 @@ INSERT INTO contact_tags VALUES
 (1, 1), (1, 3), (2, 2), (3, 1), (3, 3);
 
 INSERT INTO phone_numbers (contact_id, phone_type, number, is_primary) VALUES
-(1, 'Mobile', '555-0101', TRUE),
-(1, 'Work', '555-0102', FALSE),
-(2, 'Mobile', '555-0201', TRUE),
-(3, 'Home', '555-0301', TRUE);
+(1, 'Mobile', '011-0101', TRUE),
+(1, 'Work', '011-0102', FALSE),
+(2, 'Mobile', '011-0201', TRUE),
+(3, 'Home', '011-0301', TRUE);
